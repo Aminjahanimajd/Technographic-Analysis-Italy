@@ -78,3 +78,47 @@ University of Messina
 ## 🔗 License
 
 Dataset credit: [Techsalerator via Kaggle]
+
+---
+
+# Technographic Analysis — Italy (Sales / B2B Tech Data)
+
+This project cleans, analyzes and visualizes a B2B technographic dataset for companies in Italy. The goal is to extract insights about technology adoption, behind‑firewall status, and trends over time.
+
+## Files
+
+- `Cleaned_Technographic_Data_Italy.csv` — cleaned dataset (exported)
+- `ItalyB2B.py` — main script for cleaning and visualization
+- `plots/` — generated visualizations (top technologies, time trends, behind‑firewall distribution)
+
+## Dataset
+
+Source: Techsalerator (Kaggle) — see `README` in the original dataset for licensing details.
+
+## How to run
+
+1. Install required Python packages (pandas, matplotlib, seaborn):
+
+   pip install pandas matplotlib seaborn
+
+2. Run the main script to produce cleaned CSV and plots:
+
+   python ItalyB2B.py
+
+3. Check the `plots/` folder for the exported charts (PNG files).
+
+## Key outputs
+
+- Top 10 technologies used by companies
+- Time series of technology mentions
+- Distribution of technologies deployed behind firewalls
+
+## Ideas for extension
+
+- Enrich dataset with company attributes (revenue, size) for deeper segmentation
+- Interactive dashboard with Plotly Dash or Streamlit
+- Automated monthly refresh and reporting pipeline
+
+## Author
+
+Mohammadamin (Amin) Jahanimajd — BSc Data Analysis
